@@ -1,3 +1,0 @@
-# SearchItunes
-
-![](playVideo.png)
