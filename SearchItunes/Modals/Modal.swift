@@ -40,17 +40,3 @@ class Itune {
         primaryGenreName = json["primaryGenreName"].stringValue
     }
 }
-
-class User {
-    let id: Int?
-    var name: String?
-    var email: String?
-    var phone: String?
-    
-    required init?(json: JSON) {
-        id = json["id"].intValue
-        name = json["name"].stringValue
-        email = json["email"].stringValue
-        phone = json["phone"].stringValue
-    }
-}
